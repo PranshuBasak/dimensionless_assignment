@@ -11,16 +11,16 @@ const NewsQuant = () => {
         <Topbar />
         <NewsHeader />
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-          <div className="col-span-2 row-span-2 bg-white-200  max-w-4xl min-h-2xl border-2 rounded-xl shadow-lg ">
+          <div className="col-span-2 row-span-3 bg-white max-w-4xl min-h-2xl border-2 rounded-xl shadow-lg overflow-auto">
             <BubbleChart />
           </div>
-          <div className="bg-white-200  max-w-4xl min-h-2xl border-2 rounded-xl shadow-lg">
+          <div className="bg-white-200 max-w-4xl min-h-2xl border-2 rounded-xl shadow-lg overflow-auto overflow-y-auto">
             <DoughnutChart />
           </div>
-          <div className="col-span-2 bg-gray-200 h-40 max-w-4xl border-2 rounded-xl shadow-lg pb-5">
+          <div className="col-span-2 row-span-3 bg-white h-auto max-w-4xl border-2 rounded-xl shadow-lg  overflow-auto">
             <NewsTable />
           </div>
-          <div className="bg-white-200  max-w-2xl max-h-4xl border-2 rounded-xl shadow-lg">
+          <div className="bg-white-200 max-w-4xl min-h-2xl border-2 rounded-xl shadow-lg overflow-auto">
             <Topics />
           </div>
       </div>
@@ -28,4 +28,4 @@ const NewsQuant = () => {
   )
 }
 
-export default NewsQuant
+export default NewsQuant;

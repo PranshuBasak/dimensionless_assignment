@@ -40,8 +40,8 @@ This command will bundle React in production mode and optimize the build for the
 
 ## GitHub Repository
 
-(Insert GitHub repository link here)
+[https://github.com/PranshuBasak/dimensionless_assignment.git](https://github.com/PranshuBasak/dimensionless_assignment.git)
 
 ## Deployed Link
 
-(Insert deployed app link here)
+[https://dimensionless.pranshubasak.co/](https://dimensionless.pranshubasak.co/)

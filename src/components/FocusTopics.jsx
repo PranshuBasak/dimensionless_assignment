@@ -1,6 +1,5 @@
 const FocusTopics = (topics) => {
     let elements = [];
-    console.log(topics)
     for (let index = 1; index <= topics.topics; index++) {
         elements.push(
             <div key={index} className="pt-2.5 ml-4 text-gray-400 flex"> 
