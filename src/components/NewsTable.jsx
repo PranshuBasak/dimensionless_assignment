@@ -24,7 +24,7 @@ export default function NewsTable() {
     <TableContainer component={Paper}>
       <Table sx={{ maxWidth: 800 }} aria-label="simple table">
         <TableHead>
-          <TableRow>
+          <TableRow className='bg-sky-50'>
             <TableCell>Type</TableCell>
             <TableCell align="center">News</TableCell>
             <TableCell align="center">Score</TableCell>
