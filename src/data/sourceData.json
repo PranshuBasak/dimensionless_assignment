@@ -1,0 +1,57 @@
+    [
+        {
+            "label": ["ERU"],
+            "data": [
+                {"x": "2024-11-06 12:05:30", "y": 70, "r": 12}
+            ],
+            "backgroundColor": [
+                "#eede64"
+            ],
+            "borderColor": [
+                "#e2e093"
+            ],
+            "borderWidth": 3
+        },
+        {
+            "label": ["INR"],
+            "data": [
+                {"x": "2024-11-06 12:39:30", "y": 50, "r": 10},
+                {"x": "2024-11-06 13:39:30", "y": 90, "r": 20},
+                {"x": "2024-11-06 15:20:30", "y": 60, "r": 10}
+            ],
+            "backgroundColor": [
+                "#19b0ea"
+            ],
+            "borderColor": [
+                "#aeeaf8"
+            ],
+            "borderWidth": 3
+        },
+        {
+            "label": ["CAD"],
+            "data": [
+                {"x": "2024-11-06 12:59:30", "y": 65, "r": 12},
+                {"x": "2024-11-06 14:59:30", "y": 70, "r": 16}
+            ],
+            "backgroundColor": [
+                "#e17c79"
+            ],
+            "borderColor": [
+                "#da7c82"
+            ],
+            "borderWidth": 3
+        },
+        {
+            "label": ["OIL"],
+            "data": [
+                {"x": "2024-11-06 15:29:30", "y": 50, "r": 10}
+            ],
+            "backgroundColor": [
+                "#2dae62"
+            ],
+            "borderColor": [
+                "#70bc8d"
+            ],
+            "borderWidth": 3
+        }
+    ]
