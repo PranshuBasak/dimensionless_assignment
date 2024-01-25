@@ -18,6 +18,7 @@ const NewsQuant = () => {
             <DoughnutChart />
           </div>
           <div className="col-span-2 row-span-3 bg-white h-auto max-w-4xl border-2 rounded-xl shadow-lg  overflow-auto">
+            <div className="p-2 font-bold text-[20px]">Refined News & Data Flow</div>
             <NewsTable />
           </div>
           <div className="bg-white-200 max-w-4xl min-h-2xl border-2 rounded-xl shadow-lg overflow-auto">
